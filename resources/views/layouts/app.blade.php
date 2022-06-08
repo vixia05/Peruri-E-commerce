@@ -11,4 +11,5 @@
     @include('layouts.navbar')
     @yield('content')
 </body>
+<script src="{{ asset('js/app.js') }}"></script>
 </html>
