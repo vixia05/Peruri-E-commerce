@@ -1,7 +1,7 @@
-<div class="flex flex-wrap space-y-3 md:space-x-2 md:space-y-0 py-3 px-4 md:px-6 lg:px-32 border-b-2 my-3">
+<div class="flex flex-wrap space-y-3 md:space-x-2 md:space-y-0 py-3 px-4 md:px-6 lg:px-32 border-b-2 mb-3 sticky-top bg-slate-100">
     {{-- Logo E-commerce --}}
     <div class="mx-auto my-auto w-full md:w-1/5">
-        <img src="{{ asset('images/logo/Peruri.png') }}" class="max-h-14 mx-auto md:max-h-16">
+        <img src="{{ asset('images/logo/Peruri.png') }}" class="max-h-14 mx-auto md:max-h-12">
     </div>
     {{-- End Logo E-commerce --}}
     {{-- Search & Filter Bar --}}
