@@ -1,5 +1,5 @@
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -19,7 +19,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -29,7 +29,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -39,7 +39,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -49,7 +49,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -59,7 +59,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -69,7 +69,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -79,7 +79,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -89,7 +89,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -99,7 +99,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -109,7 +109,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -119,7 +119,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -129,7 +129,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -139,7 +139,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -149,7 +149,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+    <img src="{{ asset('/images/motor.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -159,7 +159,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+    <img src="{{ asset('/images/042.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -169,7 +169,7 @@
     </div>
 </div>
 <div class="border-2 rounded-lg">
-    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+    <img src="{{ asset('/images/043.webp') }}"
         class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
     <div class="my-1 p-2">
         <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>

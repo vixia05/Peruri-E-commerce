@@ -22,14 +22,14 @@
             </div>
             <div class="carousel-inner relative w-full max-h-60 overflow-hidden rounded-2xl">
                 <div class="carousel-item active float-left w-full">
-                    <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+                    <img src="{{ asset('/images/motor.webp') }}"
                         class="block w-full" alt="Wild Landscape" />
                 </div>
                 <div class="carousel-item float-left w-full">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="block w-full" alt="Camera" />
+                    <img src="{{ asset('/images/042.webp') }}" class="block w-full" alt="Camera" />
                 </div>
                 <div class="carousel-item float-left w-full">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="block w-full"
+                    <img src="{{ asset('/images/043.webp') }}" class="block w-full"
                         alt="Exotic Fruits" />
                 </div>
             </div>
@@ -55,7 +55,7 @@
                     <h4 class="font-bold border-b-2 md:border-b-0">Produk Terbaru</h4>
                     <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
                         <div class="border-2 rounded-lg">
-                            <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+                            <img src="{{ asset('/images/motor.webp') }}"
                                 class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                            <img src="{{ asset('/images/042.webp') }}"
                                 class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                            <img src="{{ asset('/images/043.webp') }}"
                                 class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -92,7 +92,7 @@
                     <h4 class="font-bold">Produk Trending</h4>
                     <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
                         <div class="border-2 rounded-lg">
-                            <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+                            <img src="{{ asset('/images/motor.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                            <img src="{{ asset('/images/042.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                            <img src="{{ asset('/images/043.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
@@ -129,7 +129,7 @@
                     <h4 class="font-bold">Rating Terbaik</h4>
                     <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
                         <div class="border-2 rounded-lg">
-                            <img src="https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/01/damon-hyperfighter-header.jpg?w=1500&quality=82&strip=all&ssl=1"
+                            <img src="{{ asset('/images/motor.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                            <img src="{{ asset('/images/042.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
@@ -149,7 +149,7 @@
                             </div>
                         </div>
                         <div class="border-2 rounded-lg">
-                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                            <img src="{{ asset('/images/043.webp') }}"
                                 class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
                             <div class="my-1 p-2">
                                 <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
