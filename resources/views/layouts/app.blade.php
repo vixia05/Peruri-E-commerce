@@ -7,7 +7,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-slate-100 bg-opacity-80">
     @include('layouts.navbar')
     @yield('content')
 </body>
