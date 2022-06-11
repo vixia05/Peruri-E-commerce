@@ -197,19 +197,21 @@
     <div class="flex justify-center my-10">
         <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
             <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Penilaian Produk</h5>
-            <div class="flex flex-wrap justify-start">
-                <div class="block shadow-md w-full max-w-full p-2 border rounded-md">
-                    <div class="basis-1/4 w-1/4">
+            <div class="block shadow-md w-full p-3 border rounded-md">
+                <div class="flex flex-wrap">
+                    <div class="block w-1/4">
                         <p>5.0 Dari 5</p>
                         <p>* * * * *</p>
                     </div>
-                    <div class="grid grid-flow-row grid-cols-3 basis-3/5 w-3/5 gap-2">
-                        <button class="border p-3">Semua</button>
-                        <button class="border p-3">5 Bintang</button>
-                        <button class="border p-3">4 Bintang</button>
-                        <button class="border p-3">3 Bintang</button>
-                        <button class="border p-3">2 Bintang</button>
-                        <button class="border p-3">1 Bintang</button>
+                    <div class="block w-3/5">
+                        <div class="grid grid-flow-row grid-cols-3 gap-2">
+                            <button class="border p-3">Semua</button>
+                            <button class="border p-3">5 Bintang</button>
+                            <button class="border p-3">4 Bintang</button>
+                            <button class="border p-3">3 Bintang</button>
+                            <button class="border p-3">2 Bintang</button>
+                            <button class="border p-3">1 Bintang</button>
+                        </div>
                     </div>
                 </div>
             </div>
