@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Poduct Overview --}}
-    <div class="w-full md:w-4/5 mx-auto bg-white rounded">
+    <div class="w-full md:w-4/5 mx-auto bg-white rounded shadow-lg">
         <div class="flex flex-wrap md:p-2 space-x-8">
             {{-- Product Image --}}
             <div class="w-full md:w-2/5 mb-6">
@@ -136,7 +136,8 @@
         </div>
     </div>
     {{-- End Product Oveview --}}
-    <div class="w-full md:w-4/5 mx-auto bg-white rounded my-10">
+    {{-- Store Credibility --}}
+    <div class="w-full md:w-4/5 mx-auto bg-white rounded my-10 shadow-lg">
         <div class="md:p-2">
             <div class="flex flex-wrap">
                 <img src="{{ asset('images/041.webp') }}" class="rounded-full h-20 w-20" alt="store_ava">
@@ -162,6 +163,53 @@
                         <p class="font-sans text-sm opacity-80">Produk</p>
                         <p class="font-sans text-sm opacity-80">Waktu Chat Di Balas</p>
                         <p class="font-sans text-sm opacity-80">Pengikut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- End Store Credibility --}}
+    {{-- Sesification & Deskription Product --}}
+    <div class="flex justify-center">
+        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
+          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Spesifikasi Produk</h5>
+            <div class="grid grid-flow-row gap-4 py-6">   
+                <section class="flex flex-wrap pl-6">
+                    <p class="text-gray-700 text-base basis-1/4 ">Jenis</p>
+                    <p class="text-gray-700 text-base max-w-full">Motor</p>
+                </section>
+                <section class="flex flex-wrap pl-6">
+                    <p class="text-gray-700 text-base basis-1/4">Variasi</p>
+                    <p class="text-gray-700 text-base max-w-full">Hitam</p>
+                </section>
+                <section class="flex flex-wrap pl-6">
+                    <p class="text-gray-700 text-base basis-1/4">Lokasi</p>
+                    <p class="text-gray-700 text-base max-w-full">Teluk Jambe Karawang</p>
+                </section>
+            </div>
+          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Deskripsi Produk</h5>
+            <div class="flex flex-wrap py-6">
+                <p class="text-gray-700 text-base">Aute do nostrud nisi amet non culpa voluptate fugiat quis. Adipisicing velit quis Lorem nisi cupidatat esse consectetur aliquip ex sint. Aute tempor officia sit proident Lorem enim. Sit qui duis Lorem fugiat cupidatat duis nulla ex cillum.</p>
+            </div>
+        </div>
+    </div>
+    {{-- Spesification & Deskription Product --}}
+    <div class="flex justify-center my-10">
+        <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
+            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Penilaian Produk</h5>
+            <div class="flex flex-wrap justify-start">
+                <div class="block shadow-md w-full max-w-full p-2 border rounded-md">
+                    <div class="basis-1/4 w-1/4">
+                        <p>5.0 Dari 5</p>
+                        <p>* * * * *</p>
+                    </div>
+                    <div class="grid grid-flow-row grid-cols-3 basis-3/5 w-3/5 gap-2">
+                        <button class="border p-3">Semua</button>
+                        <button class="border p-3">5 Bintang</button>
+                        <button class="border p-3">4 Bintang</button>
+                        <button class="border p-3">3 Bintang</button>
+                        <button class="border p-3">2 Bintang</button>
+                        <button class="border p-3">1 Bintang</button>
                     </div>
                 </div>
             </div>
