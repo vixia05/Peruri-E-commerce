@@ -1,0 +1,36 @@
+x Database
+
+Main Menu:
+    - Dashboard
+        * UI Prototype
+        x BackEnd
+    - Category
+        x UI Prototype
+        x BackEnd
+    - Detail Product
+        * UI Prototype
+        x BackEnd
+
+User Menu :
+    - Chat
+    - Diskusi Produk
+    - Pusat Bantuan
+    - Wishlist
+    - Toko Favorit
+    - Pengaturan
+
+Seller Menu :
+    - Dashboard
+    - Chat
+    - Diskusi
+    - Product
+        - Tambah Product
+        - Daftar Product
+    - Statistik
+        - Analisis Toko
+        - Kunjungan
+
+Note :
+    "-" => Yang Harus Di Kerjakan
+    "*" => Yang Sudah Di lakukan
+    "x" => Belum Di Kerjakan

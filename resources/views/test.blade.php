@@ -173,7 +173,7 @@
     <div class="flex justify-center">
         <div class="block p-6 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
           <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Spesifikasi Produk</h5>
-            <div class="grid grid-flow-row gap-4 py-6">   
+            <div class="grid grid-flow-row gap-4 py-6">
                 <section class="flex flex-wrap pl-6">
                     <p class="text-gray-700 text-base basis-1/4 ">Jenis</p>
                     <p class="text-gray-700 text-base max-w-full">Motor</p>
@@ -193,10 +193,11 @@
             </div>
         </div>
     </div>
-    {{-- Spesification & Deskription Product --}}
+    {{-- End Spesification & Deskription Product --}}
+    {{-- Diskusi Produk --}}
     <div class="flex justify-center my-10">
         <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
-            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Penilaian Produk</h5>
+            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Diskusi Produk</h5>
             <div class="block shadow-md w-full p-3 border rounded-md">
                 <div class="flex flex-wrap">
                     <div class="block w-1/4">
