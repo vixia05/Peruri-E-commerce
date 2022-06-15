@@ -24,6 +24,22 @@
                 <h3 class="block text-sm md:text-base lg:text-lg font-bold">Velit commodo adipisicing dolore consectetur
                     nisi pariatur sunt consectetur consectetur Lorem ad amet qui sunt.</h3>
                 {{-- End Product Title --}}
+                {{-- Product Statistic --}}
+                <div class="flex flex-wrap gap-1 py-3">
+                    <div class="flex gap-2 border-r-2 px-2">
+                        <p class="text-lg underline text-blue-300">5.0</p>
+                        <p class="text-lg font-bold text-blue-300">*****</p>
+                    </div>
+                    <div class="flex gap-2 border-r-2 px-2">
+                        <p class="text-lg underline ">72</p>
+                        <p class="text-md text-gray-500">Penilaian</p>
+                    </div>
+                    <div class="flex gap-2 px-2">
+                        <p class="text-lg underline ">81</p>
+                        <p class="text-md text-gray-500">Terjual</p>
+                    </div>
+                </div>
+                {{-- End Product Statistic --}}
                 {{-- Product Price --}}
                 <h2 class="p-6 text-3xl font-sans text font-bold py-7">RP. 23.000.000</h2>
                 {{-- End Product Price --}}
@@ -83,13 +99,16 @@
                     {{-- Product Quantity --}}
                     <div class="flex flex-row space-x-9">
                         <div class="block w-1/6">
-                            <p class="text-sm text-slate-500 font-light"> Stock Barang </p>
+                            <p class="text-sm text-slate-500 font-light"> Kuantitas </p>
                         </div>
                         <div class="block w-3/4">
                             <div class="flex flex-wrap ">
-                                <input type="text"
-                                    class="border-2 px-2 text-center appearance-none w-24 h-7 my-auto hover:border-blue-500 focus:border-blue-500 outline-blue-400"
-                                    value="1.000" disabled />
+                                <button type="btn" class="border px-2 h-7 my-auto hover:border-blue-500">-</button>
+                                <input type="number"
+                                    class="border px-2 text-center appearance-none w-24 h-7 my-auto hover:border-blue-500 focus:border-blue-500 outline-blue-400"
+                                    value="1" />
+                                <button type="btn" class="border px-2 h-7 my-auto hover:border-blue-500">+</button>
+                                <p class="text-xs opacity-80 font-sans mx-2 my-auto">Tersisa 1.000 Unit</p>
                             </div>
                         </div>
                     </div>
@@ -99,13 +118,13 @@
                         <div class="block mt-4">
                             <button type="btn"
                                 class="border-2 border-blue-300 bg-blue-100 bg-opacity-70 hover:bg-blue-200 hover:bg-opacity-70 rounded-sm px-6 py-3 transition ease-in-out">
-                                <p class="font-sans">Tambah Whistlist</p>
+                                <p class="font-sans">Masukan Ke Keranjang</p>
                             </button>
                         </div>
                         <div class="block mt-4">
                             <button type="btn"
                                 class="bg-blue-600 bg-opacity-90 hover:bg-blue-500  rounded-sm px-6 py-3 transition">
-                                <p class="font-sans font-bold text-white">Hubungi Penjual</p>
+                                <p class="font-sans font-bold text-white">Beli Sekarang</p>
                             </button>
                         </div>
                     </div>
@@ -181,49 +200,24 @@
     <div class="flex justify-center my-10">
         <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
             <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Diskusi Produk</h5>
-            <div class="flex justify-start">
-                <div class="block p-6 rounded-lg shadow-lg bg-slate-100 max-w-full w-full">
-                    <div class="block border-b-2 p-2">
-                        <p class="text-gray-700 text-sm mb-1 font-bold">
-                            User-A
-                        </p>
-                        <p class="text-gray-700 text-xs mb-2">
-                            15-06-2022
-                        </p>
-                        <p class="text-gray-700 text-sm mb-1 max-w-lg">
-                            Id esse exercitation eu enim dolor quis enim reprehenderit. Enim culpa duis fugiat consectetur
-                            dolore. In ea commodo fugiat eu exercitation ullamco proident est exercitation Lorem aliquip
-                            laboris
-                            veniam.
-                        </p>
+            <div class="block shadow-md w-full p-3 border rounded-md">
+                <div class="flex flex-wrap">
+                    <div class="block w-1/4">
+                        <p>5.0 Dari 5</p>
+                        <p>* * * * *</p>
                     </div>
-                    <div class="block p-2 pl-24">
-                        <p class="text-gray-700 text-sm mb-1 font-bold">
-                            Seller-A <span
-                                class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-400 text-white rounded ml-6">Seller</span>
-                        </p>
-                        <p class="text-gray-700 text-xs mb-2">
-                            15-06-2022
-                        </p>
-                        <p class="text-gray-700 text-sm mb-1 max-w-lg">
-                            Id esse exercitation eu enim dolor quis enim reprehenderit. Enim culpa duis fugiat consectetur
-                            dolore. In ea commodo fugiat eu exercitation ullamco proident est exercitation Lorem aliquip
-                            laboris
-                            veniam.
-                        </p>
+                    <div class="block w-3/5">
+                        <div class="grid grid-flow-row grid-cols-3 gap-2">
+                            <button class="border p-3">Semua</button>
+                            <button class="border p-3">5 Bintang</button>
+                            <button class="border p-3">4 Bintang</button>
+                            <button class="border p-3">3 Bintang</button>
+                            <button class="border p-3">2 Bintang</button>
+                            <button class="border p-3">1 Bintang</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    {{-- End Diskusi Produk --}}
-    {{-- Produk Lainnya --}}
-    <div class="flex justify-center my-10">
-        <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 grid-flow-row gap-3">
-                @include('dummy-item')
-            </div>
-        </div>
-    </div>
-    {{-- End Produk Lainnya --}}
 @endsection
