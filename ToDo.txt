@@ -17,7 +17,7 @@ User Menu :
     - Pusat Bantuan
     - Wishlist
     - Toko Favorit
-    - Pengaturan
+    * Pengaturan
 
 Seller Menu :
     - Dashboard
