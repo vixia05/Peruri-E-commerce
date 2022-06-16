@@ -13,10 +13,9 @@ Main Menu:
 
 User Menu :
     - Chat
-    - Diskusi Produk
+    * Diskusi Produk
     - Pusat Bantuan
-    - Wishlist
-    - Toko Favorit
+    * Wishlist
     * Pengaturan
 
 Seller Menu :
