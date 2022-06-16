@@ -3,7 +3,7 @@
 @section('content')
     <div class="flex justify-center mx-20 mt-10">
         @include('layouts.sidebar.user-menu')
-        <div class="block p-6 rounded-lg shadow-lg bg-white ml-10 min-w-min w-full">
+        <div class="block p-6 rounded-lg shadow-lg bg-white ml-10 min-w-min w-full drop-shadow-md">
             <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Biodata Diri</h5>
             <div class="flex flex-wrap justify-start p-4 w-full">
                 {{-- Form ganti foto --}}

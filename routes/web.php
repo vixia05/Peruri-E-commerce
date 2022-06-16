@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'dashboard');
-
-Route::view('test', 'test');
+Route::view('/test', 'test');
+Route::view('/user', 'user.pengaturan');
+Route::view('/user/chat', 'user.chat');
+Route::view('/user/diskusi', 'user.diskusi');
+Route::view('/user/whislist', 'user.whistlist');

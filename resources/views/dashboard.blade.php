@@ -165,9 +165,9 @@
         </div>
         {{-- End Three Feature --}}
         {{-- Item Showcase --}}
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 grid-flow-row gap-3">
+
+        <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2 pb-2">Penawaran Lainnya</h5>
             @include('dummy-item')
-        </div>
         {{-- End item Showcase --}}
     </div>
 @endsection

@@ -7,9 +7,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-slate-100 bg-opacity-80">
-    @include('layouts.navbar')
-    @yield('content')
+<body>
+    <main>
+        @include('layouts.navbar')
+        @yield('content')
+    </main>
 </body>
 <script src="{{ asset('js/app.js') }}"></script>
 </html>

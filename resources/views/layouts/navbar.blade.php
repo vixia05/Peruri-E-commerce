@@ -1,16 +1,18 @@
-<div class="hidden md:block">
+<div class="hidden md:block sticky-top">
     <div
-        class="flex flex-wrap space-y-3 md:space-x-2 md:space-y-0 py-3 px-4 md:px-6 lg:px-32 border-b-2 mb-3 sticky-top bg-slate-100">
+        class="flex flex-wrap space-y-3 md:space-x-2 md:space-y-0 py-3 px-4 md:px-6 lg:px-32 shadow-sm border-b-2 mb-3 bg-cyan-50">
         {{-- Logo E-commerce --}}
-        <div class="mx-auto my-auto w-full md:w-1/5">
-            <img src="{{ asset('images/logo/Peruri.png') }}" class="max-h-14 mx-auto md:max-h-12">
+        <div class="mx-auto my-auto w-full md:basis-1/5">
+            <a href="{{ url('/') }}">
+                <img src="{{ asset('images/logo/Peruri.png') }}" class="max-h-14 mx-auto md:max-h-12">
+            </a>
         </div>
         {{-- End Logo E-commerce --}}
         {{-- Search & Filter Bar --}}
-        <div class="flex-intial w-full md:w-1/2 pl-5">
+        <div class="flex-intial w-full md:basis-1/2 pl-5">
             <div class="flex mt-3">
                 <select id="fil-cats" name="fil-cats"
-                    class="hidden md:block border-2 border-r-0 px-2 focus:border-blue-500 focus:outline-blue-600 focus:ring-blue-500 border-blue-400 rounded-l-3xl font-sans text-base">
+                    class="hidden md:block border-2 border-r-0 px-2 focus:border-blue-500 focus:outline-blue-600 focus:ring-blue-500 border-blue-400 rounded-l-3xl font-sans text-sm">
                     <option>Filter</option>
                     <option>Elektronik</option>
                     <option>Otomotif</option>
@@ -43,7 +45,7 @@
                             d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <div class="grid grid-flow-row grid-rows-2 ml-2">
-                        <a href="#" class="font-mono hover:underline">Masuk</a>
+                        <a href="{{ url('/user') }}" class="font-mono hover:underline">Masuk</a>
                         <a href="#" class="font-mono hover:underline">Daftar</a>
                     </div>
                 </div>

@@ -29,12 +29,12 @@
                 <ul class="relative accordion-collapse collapse show" id="collapsekotakMasuk"
                     aria-labelledby="kotakMasuk" data-bs-parent="#sidenavExample">
                     <li class="relative">
-                        <a href="#!"
-                            class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
+                        <a href="{{ url('/user/chat') }}"
+                            class="flex items-center active:bg-gray-500 text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
                             data-mdb-ripple="true" data-mdb-ripple-color="info">Chat</a>
                     </li>
                     <li class="relative">
-                        <a href="#!"
+                        <a href="{{ url('/user/diskusi') }}"
                             class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
                             data-mdb-ripple="true" data-mdb-ripple-color="info">Diskusi Product</a>
                     </li>
@@ -68,12 +68,12 @@
                 <ul class="relative accordion-collapse collapse show" id="collapseprofilSaya"
                     aria-labelledby="profilSaya" data-bs-parent="#sidenavExample">
                     <li class="relative">
-                        <a href="#!"
+                        <a href="{{ url('/user/whislist') }}"
                             class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
                             data-mdb-ripple="true" data-mdb-ripple-color="info">Whislist</a>
                     </li>
                     <li class="relative">
-                        <a href="#!"
+                        <a href="{{ url('/user') }}"
                             class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
                             data-mdb-ripple="true" data-mdb-ripple-color="info">Pengaturan</a>
                     </li>
