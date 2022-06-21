@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'dashboard');
 Route::view('/test', 'test');
+Route::view('/product', 'product.product-detail')->name('product');
 Route::view('/user', 'user.pengaturan');
 Route::view('/user/chat', 'user.chat');
 Route::view('/user/diskusi', 'user.diskusi');

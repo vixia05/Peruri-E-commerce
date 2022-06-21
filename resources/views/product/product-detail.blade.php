@@ -261,9 +261,8 @@
     <div class="flex justify-center my-10">
         <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
             <h5 class="text-gray-900 text-xl leading-tight font-medium mb-6 border-b-2 shadow-sm">Pilihan Lainnya</h5>
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 grid-flow-row gap-3">
-                @include('dummy-item')
-            </div>
+
+            @include('dummy-item')
         </div>
     </div>
     {{-- End Produk Lainnya --}}
