@@ -5,9 +5,12 @@
         <select class="text-right px-2 border-r-2 ">
             <option>Categories</option>
         </select>
-        <a href="#" class="col px-2">Elektronik</a>
+        <a href="#" class="col px-2">Makanan</a>
+        <a href="#" class="col px-2">Pakain</a>
+        <a href="#" class="col px-2">Product Original</a>
+        <a href="#" class="col px-2">Jasa</a>
         <a href="#" class="col px-2">Otomotif</a>
-        <a href="#" class="col px-2">Clothes</a>
+        <a href="#" class="col px-2">Elektronik</a>
     </div>
     <div class="px-1 md:px-10 lg:px-16 py-10 space-y-10">
         {{-- Carousel Item --}}
@@ -22,15 +25,13 @@
             </div>
             <div class="carousel-inner relative w-full max-h-60 overflow-hidden rounded-2xl">
                 <div class="carousel-item active float-left w-full">
-                    <img src="{{ asset('/images/motor.webp') }}"
-                        class="block w-full" alt="Wild Landscape" />
+                    <img src="{{ asset('/images/motor.webp') }}" class="block w-full" alt="Wild Landscape" />
                 </div>
                 <div class="carousel-item float-left w-full">
                     <img src="{{ asset('/images/042.webp') }}" class="block w-full" alt="Camera" />
                 </div>
                 <div class="carousel-item float-left w-full">
-                    <img src="{{ asset('/images/043.webp') }}" class="block w-full"
-                        alt="Exotic Fruits" />
+                    <img src="{{ asset('/images/043.webp') }}" class="block w-full" alt="Exotic Fruits" />
                 </div>
             </div>
             <button
@@ -48,126 +49,33 @@
         </div>
         {{-- End Carousel Item --}}
         {{-- Feature Three Group --}}
-        <div class="grid grid-flow-rows border-b-4 pb-6">
-            <div class="grid grid-cols-1 lg:grid-cols-3 grid-flow-row gap-3">
-                {{-- Featuring 1 --}}
-                <div class="border-0 md:border-2 p-3 rounded-lg">
-                    <h4 class="font-bold border-b-2 md:border-b-0">Produk Terbaru</h4>
-                    <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/motor.webp') }}"
-                                class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 1</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/042.webp') }}"
-                                class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
-                                <p class="font-bold text-sm font-sans" >Rp.1.500.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 10+</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/043.webp') }}"
-                                class="block object-contain w-full h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 100+</p>
-                            </div>
+          {{-- Featuring 1 --}}
+            <div class="flex justify-start">
+                <div class="block p-6 rounded-lg shadow-lg bg-white min-w-full">
+                    <h5 class="text-gray-900 text-xl leading-tight font-bold mb-2 border-b-2">Produk Terbaru</h5>
+                    <div class="flex overflow-x-scroll hide-scroll-bar p-4">
+                        <div class="flex flex-nowrap">
+                            @include('dummy.dummy-terbaru')
                         </div>
                     </div>
                 </div>
-                {{-- End Featuring 1 --}}
-                {{-- Featuring 2 --}}
-                <div class="border-2 p-3 rounded-lg">
-                    <h4 class="font-bold">Produk Trending</h4>
-                    <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/motor.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 1</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/042.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
-                                <p class="font-bold text-sm font-sans" >Rp.1.500.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 10+</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/043.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 100+</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- End Featuring 2 --}}
-                {{-- Featuring 3 --}}
-                <div class="border-2 p-3 rounded-lg">
-                    <h4 class="font-bold">Rating Terbaik</h4>
-                    <div class="grid grid-cols-3 grid-flow-row py-4 gap-3">
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/motor.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">MotorCycle Yellow Type Like Know Nothing</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 1</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/042.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Camera Conon</p>
-                                <p class="font-bold text-sm font-sans" >Rp.1.500.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 10+</p>
-                            </div>
-                        </div>
-                        <div class="border-2 rounded-lg">
-                            <img src="{{ asset('/images/043.webp') }}"
-                                class="block object-contain w-36 h-36 rounded-sm bg-slate-50" alt="Motorcycle" />
-                            <div class="my-1 p-2">
-                                <p class="text-sm font-sans line-clamp-2">Fruit Fruty</p>
-                                <p class="font-bold text-sm font-sans" >Rp.23.000</p>
-                                <p class="my-2 text-xs font-sans">Karawang</p>
-                                <p class="my-2 text-xs font-sans">5.0 | Terjual 100+</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- End Featuring 3 --}}
             </div>
-        </div>
+          {{-- Featuring 2 --}}
+            <div class="flex justify-start">
+                <div class="block p-6 rounded-lg shadow-lg bg-white min-w-full">
+                    <h5 class="text-gray-900 text-xl leading-tight font-bold mb-2 border-b-2">Paling Sering Di lihat</h5>
+                    <div class="flex overflow-x-scroll hide-scroll-bar p-4">
+                        <div class="flex flex-nowrap">
+                            @include('dummy.dummy-terbaru')
+                        </div>
+                    </div>
+                </div>
+            </div>
         {{-- End Three Feature --}}
         {{-- Item Showcase --}}
 
         <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2 pb-2">Penawaran Lainnya</h5>
-            @include('dummy-item')
+        @include('dummy.dummy-item')
         {{-- End item Showcase --}}
     </div>
 @endsection

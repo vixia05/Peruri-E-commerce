@@ -80,20 +80,6 @@
                         </div>
                     </div>
                     {{-- End Summary 2 to ... --}}
-                    {{-- Product Quantity --}}
-                    <div class="flex flex-row space-x-9">
-                        <div class="block w-1/6">
-                            <p class="text-sm text-slate-500 font-light"> Stock Barang </p>
-                        </div>
-                        <div class="block w-3/4">
-                            <div class="flex flex-wrap ">
-                                <input type="text"
-                                    class="border-2 px-2 text-center appearance-none w-24 h-7 my-auto hover:border-blue-500 focus:border-blue-500 outline-blue-400"
-                                    value="1.000" disabled />
-                            </div>
-                        </div>
-                    </div>
-                    {{-- End Product Quantity --}}
                     {{-- Order Button --}}
                     <div class="flex flex-wrap p-1 gap-2 pb-6 border-b-2">
                         <div class="block mt-4">
@@ -262,7 +248,7 @@
         <div class="block p-10 rounded-lg shadow-lg bg-white max-w-full w-full md:w-4/5">
             <h5 class="text-gray-900 text-xl leading-tight font-medium mb-6 border-b-2 shadow-sm">Pilihan Lainnya</h5>
 
-            @include('dummy-item')
+            @include('dummy.dummy-item')
         </div>
     </div>
     {{-- End Produk Lainnya --}}
