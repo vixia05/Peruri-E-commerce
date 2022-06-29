@@ -1,17 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="flex-col border-b-2 px-44 space-x-5 py-2 text-sm">
-        <select class="text-right px-2 border-r-2 ">
-            <option>Categories</option>
-        </select>
-        <a href="#" class="col px-2">Makanan</a>
-        <a href="#" class="col px-2">Pakain</a>
-        <a href="#" class="col px-2">Product Original</a>
-        <a href="#" class="col px-2">Jasa</a>
-        <a href="#" class="col px-2">Otomotif</a>
-        <a href="#" class="col px-2">Elektronik</a>
-    </div>
     <div class="px-1 md:px-10 lg:px-16 py-10 space-y-10">
         {{-- Carousel Item --}}
         <div id="carouselExampleCrossfade" class="carousel slide carousel-fade relative" data-bs-ride="carousel">
