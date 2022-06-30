@@ -9,7 +9,9 @@
 {{-- Navbar --}}
 <nav class="flex justify-start flex-wrap sticky top-0 z-50 bg-white shadow-md p-4">
     {{-- Logo --}}
-    <img src="{{ asset('images/logo/Peruri.svg') }}" class="w-full md:w-fit max-h-10 my-auto ml-10 pb-2 md:pb-0">
+    <a href="{{ url('/') }}">
+        <img src="{{ asset('images/logo/Peruri.svg') }}" class="w-full md:w-fit max-h-10 my-auto ml-10 pb-2 md:pb-0">
+    </a>
     {{-- End Logo --}}
     {{-- Categories --}}
     <div class="dropdown ml-8 my-auto mr-4 hidden md:block">
@@ -41,9 +43,9 @@
         </ul>
     </div>
     <div class="flex-1 my-auto text-sm font-semibold space-x-4 hidden lg:block">
-        <a href="#" class="">Produk Original</a>
-        <a href="#" class="">Makanan</a>
-        <a href="#" class="">Jasa</a>
+        <a href="{{ url('product') }}" class="p-1">Produk Original</a>
+        <a href="{{ url('product') }}" class="p-1">Makanan</a>
+        <a href="{{ url('product') }}" class="p-1">Jasa</a>
     </div>
     {{-- End Categories --}}
     {{-- Search And Others --}}
@@ -66,7 +68,7 @@
                     </button>
                 </div>
             </div>
-            <a href="#" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
+            <a href="{{ url('user') }}" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
@@ -75,17 +77,17 @@
     </div>
     <div class="p-2 ml-1 my-auto">
         <div class="flex justify-center space-x-3">
-            <a href="#" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
+            <a href="{{ url('user/chat') }}" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                   </svg>
             </a>
-            <a href="#" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
+            <a href="{{ url('user/diskusi') }}" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                   </svg>
             </a>
-            <a href="#" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
+            <a href="{{ url('user/whislist') }}" class="my-auto transition ease-in-out text-gray-500 hover:text-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                   </svg>

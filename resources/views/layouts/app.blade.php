@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    @include('layouts.navbar')
     <main>
-        @include('layouts.navbar')
         @yield('content')
     </main>
 </body>
