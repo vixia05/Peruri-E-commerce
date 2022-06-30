@@ -30,7 +30,7 @@
             aria-labelledby="dropdownMenuButton1">
             <li>
                 <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
-                    href="#">Produk Original</a>
+                    href="{{ url('product/category') }}">Produk Original</a>
             </li>
             <li>
                 <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100"
@@ -43,9 +43,9 @@
         </ul>
     </div>
     <div class="flex-1 my-auto text-sm font-semibold space-x-4 hidden lg:block">
-        <a href="{{ url('product') }}" class="p-1">Produk Original</a>
-        <a href="{{ url('product') }}" class="p-1">Makanan</a>
-        <a href="{{ url('product') }}" class="p-1">Jasa</a>
+        <a href="{{ url('product/category') }}" class="p-1">Produk Original</a>
+        <a href="{{ url('product/details') }}" class="p-1">Makanan</a>
+        <a href="{{ url('product/details') }}" class="p-1">Jasa</a>
     </div>
     {{-- End Categories --}}
     {{-- Search And Others --}}
