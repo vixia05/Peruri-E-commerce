@@ -1,8 +1,8 @@
 {{-- Header --}}
 <div class="flex justify-end relative bg-slate-800 py-2 px-4">
     <div class="flex-none">
-        <a href="#" class="text-sm text-white border-r-2 pr-2">Register</a>
-        <a href="#" class="text-sm text-white pl-2 pr-4">Login</a>
+        <a href="{{ url('register') }}" class="text-sm text-white border-r-2 pr-2">Register</a>
+        <a href="{{ url('login') }}" class="text-sm text-white pl-2 pr-4">Login</a>
     </div>
 </div>
 {{-- End Header --}}
@@ -44,8 +44,8 @@
     </div>
     <div class="flex-1 my-auto text-sm font-semibold space-x-4 hidden lg:block">
         <a href="{{ url('product/category') }}" class="p-1">Produk Original</a>
-        <a href="{{ url('product/details') }}" class="p-1">Makanan</a>
-        <a href="{{ url('product/details') }}" class="p-1">Jasa</a>
+        <a href="{{ url('product/detail') }}" class="p-1">Makanan</a>
+        <a href="{{ url('product/detail') }}" class="p-1">Jasa</a>
     </div>
     {{-- End Categories --}}
     {{-- Search And Others --}}
