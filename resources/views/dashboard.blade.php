@@ -38,6 +38,17 @@
         </div>
         {{-- End Carousel Item --}}
         {{-- Feature Three Group --}}
+        {{-- Category --}}
+        <div class="flex justify-start">
+            <div class="block p-6 rounded-lg shadow-lg bg-white min-w-full">
+                <h5 class="text-gray-900 text-xl leading-tight font-bold mb-2 border-b-2">Kategori</h5>
+                <div class="flex overflow-x-scroll hide-scroll-bar p-4">
+                    <div class="flex flex-nowrap">
+                        @include('dummy.dummy-kategori')
+                    </div>
+                </div>
+            </div>
+        </div>
           {{-- Featuring 1 --}}
             <div class="flex justify-start">
                 <div class="block p-6 rounded-lg shadow-lg bg-white min-w-full">
