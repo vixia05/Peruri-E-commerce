@@ -21,4 +21,4 @@ Route::view('/product/category', 'product.product-category')->name('product.cate
 Route::view('/user', 'user.pengaturan');
 Route::view('/user/chat', 'user.chat');
 Route::view('/user/diskusi', 'user.diskusi');
-Route::view('/user/whislist', 'user.whistlist');
+Route::view('/user/wishlist', 'user.wishlist');

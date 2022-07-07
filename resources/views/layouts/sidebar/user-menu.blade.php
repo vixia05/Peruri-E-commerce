@@ -68,9 +68,9 @@
                 <ul class="relative accordion-collapse collapse show" id="collapseprofilSaya"
                     aria-labelledby="profilSaya" data-bs-parent="#sidenavExample">
                     <li class="relative">
-                        <a href="{{ url('/user/whislist') }}"
+                        <a href="{{ url('/user/wishlist') }}"
                             class="flex items-center text-xs py-4 pl-12 pr-6 h-6 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-100 transition duration-300 ease-in-out"
-                            data-mdb-ripple="true" data-mdb-ripple-color="info">Whislist</a>
+                            data-mdb-ripple="true" data-mdb-ripple-color="info">Wishlist</a>
                     </li>
                     <li class="relative">
                         <a href="{{ url('/user') }}"
