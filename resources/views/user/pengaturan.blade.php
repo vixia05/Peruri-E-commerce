@@ -10,7 +10,7 @@
                 <div class="max-w-sm mr-4 basis-2/5">
                     <div class="rounded-lg shadow-lg drop-shadow-md bg-white max-w-sm">
                         <div class="px-6 py-4 max-w-80 max-h-72">
-                            <img class="rounded-md object-cover w-80 h-72" src="{{ asset('images/041.webp') }}" alt="" />
+                            <img class="rounded-md object-cover w-80 h-72" src="{{ asset('images/man.svg') }}" alt="" />
                         </div>
                         <div class="p-6">
                             <div class="flex justify-center items-center">
@@ -67,6 +67,17 @@
                         <div class="flex flex-none py-3">
                             <p class="basis-1/3 text-sm text-gray-700">Nomor HP</p>
                             <p class="flex-auto text-sm">0813-1646-1691  <a href="#" class="text-cyan-500 ml-2">Ubah</a></p>
+                        </div>
+                    </div>
+                    <div class="block p-6 rounded-lg bg-white">
+                        <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2 border-b-2">Alamat</h5>
+                        <div class="flex flex-non py-3">
+                            <p class="basis-1/3 text-sm text-gray-700">Alamat</p>
+                            <p class="flex-auto text-sm">Puri Teluk Jambe Blok C  <a href="#" class="text-cyan-500 ml-2">Ubah</a></p>
+                        </div>
+                        <div class="flex flex-none py-3">
+                            <p class="basis-1/3 text-sm text-gray-700">COD</p>
+                            <p class="flex-auto text-sm">Karawang Sekitarnya  <a href="#" class="text-cyan-500 ml-2">Ubah</a></p>
                         </div>
                     </div>
                 </div>

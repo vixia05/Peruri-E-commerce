@@ -22,3 +22,5 @@ Route::view('/user', 'user.pengaturan');
 Route::view('/user/chat', 'user.chat');
 Route::view('/user/diskusi', 'user.diskusi');
 Route::view('/user/wishlist', 'user.wishlist');
+Route::view('/user/product', 'user.product');
+Route::view('/user/product/tambah', 'user.product.tambah');

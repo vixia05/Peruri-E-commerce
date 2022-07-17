@@ -5,7 +5,7 @@
         {{-- Header --}}
         <div class="flex justify-center mx-auto border-b">
             <div class="block max-w-7xl text-center p-8 my-10">
-                <h3 class="font-semibold leading-tight text-3xl my-auto mb-3">Produk Original</h3>
+                <h3 class="font-semibold leading-tight text-3xl my-auto mb-3">Produk Eksklusif</h3>
                 <p class="font-normal leading-tight text-base text-gray-600 opacity-80 my-auto">Lorem ipsum dolor sit amet
                     consectetur, adipisicing elit. Laborum, accusamus, vel quas earum quo facere hic sunt adipisci quisquam
                     excepturi minus quasi inventore sint ipsum harum delectus rerum eos repudiandae!</p>
@@ -22,7 +22,7 @@
                             class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             type="checkbox" value="" id="categories1" checked>
                         <label class="form-check-label text-sm inline-block text-gray-7 00" for="categories1">
-                            Produk Original
+                            Produk Eksklusif
                         </label>
                     </div>
                     <div class="form-check">
