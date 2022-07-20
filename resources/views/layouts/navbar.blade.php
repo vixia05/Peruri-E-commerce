@@ -10,7 +10,7 @@
 <nav class="flex justify-start flex-wrap sticky top-0 z-50 bg-white shadow-md p-4">
     {{-- Logo --}}
     <a href="{{ url('/') }}">
-        <img src="{{ asset('images/logo/Peruri.svg') }}" class="w-full md:w-fit max-h-10 my-auto ml-10 pb-2 md:pb-0">
+        <img src="{{ asset('images/logo/logo.png') }}" class="w-full md:w-fit max-h-10 my-auto ml-10 pb-2 md:pb-0">
     </a>
     {{-- End Logo --}}
     {{-- Categories --}}

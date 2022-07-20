@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">
-    <link rel="icon" type="image/png" href="{{ asset('images/logo/peruri.svg') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/logo/logo.png') }}">
     <title>Peruri E-Commerce</title>
 </head>
 <body>
